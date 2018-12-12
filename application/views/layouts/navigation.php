@@ -13,20 +13,21 @@
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="#">Features</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Pricing</a>
-				</li>
+				</li> -->
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown link
+						Grids
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+						<a class="dropdown-item" href="<?=base_url('grid-ones')?>">By Ones</a>
+						<a class="dropdown-item" href="#">By Twos</a>
+						<a class="dropdown-item" href="#">By Threes</a>
+						<a class="dropdown-item" href="#">By Fours</a>
 					</div>
 				</li>
 			</ul>
