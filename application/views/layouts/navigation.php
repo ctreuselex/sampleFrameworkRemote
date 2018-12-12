@@ -25,7 +25,7 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="<?=base_url('grid-ones')?>">By Ones</a>
-						<a class="dropdown-item" href="#">By Twos</a>
+						<a class="dropdown-item" href="<?=base_url('grid-twos')?>">By Twos</a>
 						<a class="dropdown-item" href="#">By Threes</a>
 						<a class="dropdown-item" href="#">By Fours</a>
 					</div>
