@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<div class="container">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="<?=base_url()?>">
 			<img class="main-logo" src="<?=base_url('assets/images/tv5-logo.png'); ?>" width="30" height="30" alt="">
 		</a>
 
@@ -11,7 +11,7 @@
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="<?=base_url()?>">Home</a>
 				</li>
 				<!-- <li class="nav-item">
 					<a class="nav-link" href="#">Features</a>
