@@ -24,18 +24,22 @@ class Base_controller extends CI_Controller {
 
 	function loadContainer($callback) {
 		$this->load->view('layouts/containers/container-open'); $callback();
-		$this->load->view('layouts/containers/container-close');
+		$this->load->view('layouts/containers/general-close');
 	}
 
 	function loadRow($callback) {
 		$this->load->view('layouts/containers/row-open'); $callback();
-		$this->load->view('layouts/containers/row-close');
+		$this->load->view('layouts/containers/general-close');
 	}
 
 	function loadCol($callback, $colSize) {
 		$data['colSize'] = $colSize;
 		$this->load->view('layouts/containers/col-open', $data); $callback();
-		$this->load->view('layouts/containers/col-close');
+		$this->load->view('layouts/containers/general-close');
 	}
 
+	function loadGridRow($callback) {
+		$this->load->view('layouts/containers/gridrow-open'); $callback();
+		$this->load->view('layouts/containers/general-close');
+	}
 }
