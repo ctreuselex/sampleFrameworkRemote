@@ -31,6 +31,9 @@ body .screen-view {
 /* =============================================================================================== */
 /* GRID ========================================================================================== */
 /* =============================================================================================== */
+.row.gridrow {
+	margin: 0 -5px;}
+
 .grid {
 	float: left;
 	width: 100%; }
@@ -42,11 +45,12 @@ body .screen-view {
 		font-size: 20px;
 		font-weight: bold;
 		line-height: 1;
-		margin: 5px 0 10px; }
+		margin: 5px 5px 10px; }
 
 	.grid .box {
-		float: left;
-		margin-bottom: 5px; }
+		float: left; 
+		padding: 0 5px;
+		margin-bottom: 10px; }
 		.grid .box.by-ones { width: calc(100% / 1); }
 		.grid .box.by-twos { width: calc(100% / 2); }
 		.grid .box.by-threes { width: calc(100% / 3); }

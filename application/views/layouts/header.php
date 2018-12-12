@@ -24,7 +24,7 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css'); ?>" async>
-    <link rel="stylesheet" href="<?=base_url('assets/css/framework.css'); ?>" async>
+    <link rel="stylesheet" href="<?=base_url('assets/css/framework-grid.css'); ?>" async>
 
     <!-- JQUERY -->
     <script src="<?=base_url('assets/js/jquery.min.js'); ?>" async></script>
@@ -32,7 +32,7 @@
 
     <!-- MAIN JS -->
     <script src="<?=base_url('assets/js/bootstrap.js'); ?>" async></script>
-    <script src="<?=base_url('assets/js/framework.js'); ?>"></script>
+    <script src="<?=base_url('assets/js/framework-grid.js'); ?>"></script>
 
 </head>
 
