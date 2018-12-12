@@ -1,7 +1,7 @@
 :root {
 	--frame-lght-grey: #c3d3e4;
-	--frame-main-grey: #5d6b72;
-	--frame-dark-grey: #2b3942;
+	--frame-main-grey: #3a2f2f;
+	--frame-dark-grey: #1d1919;
 }
 
 body .screen-view {
@@ -38,5 +38,11 @@ footer {
     background-color: var(--frame-main-grey);
     color: white;
     font-size: 12px;
-    text-align: right;
+    padding: 5px 0 0; }
+footer .copyright {
+	float: left;
+	width: 100%;
+    background-color: var(--frame-dark-grey);
+    color: white;
+    font-size: 12px;
     padding: 5px 0; }
