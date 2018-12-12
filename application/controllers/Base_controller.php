@@ -12,7 +12,7 @@ class Base_controller extends CI_Controller {
 
 		loadContainer($this, function() {
 
-			$sampleData['headTitle'] = "Framework";
+			$sampleData['headTitle'] = "Frameworkssssss";
 			$this->load->view('bases/head-title', $sampleData);
 
 		});
