@@ -26,16 +26,16 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="<?=base_url('grid-ones')?>">By Ones</a>
 						<a class="dropdown-item" href="<?=base_url('grid-twos')?>">By Twos</a>
-						<a class="dropdown-item" href="#">By Threes</a>
-						<a class="dropdown-item" href="#">By Fours</a>
+						<a class="dropdown-item" href="<?=base_url('grid-threes')?>">By Threes</a>
+						<a class="dropdown-item" href="<?=base_url('grid-fours')?>">By Fours</a>
 					</div>
 				</li>
 			</ul>
-		</div>
 
-		<form class="form-inline">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
+			<!-- <form class="form-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form> -->
+		</div>
 	</div>
 </nav>

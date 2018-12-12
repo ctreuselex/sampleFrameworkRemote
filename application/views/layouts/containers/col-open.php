@@ -1,1 +1,1 @@
-<div class="col <?=$colSize?>">
+<div class="<?=$colSize?> col-sm-12 col-xs-12">
